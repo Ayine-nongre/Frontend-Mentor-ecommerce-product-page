@@ -1,0 +1,302 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 27px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    font-size: 16px; 
+}
+
+.profile_pic{
+    height: 25px;
+    width: 25px;
+    float: right;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.shoppingCart{
+    display: none;
+}
+
+.shoppingCart_open{
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+.p1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.p2{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+hr{
+    width: 357px;
+}
+
+.menu_icon{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.cart_icon{
+    margin-top: 13px;
+    margin-right: 17px;
+}
+
+.header_text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.menu_list{
+    display: none;
+}
+
+.menu_list_responsive{
+    background-color: white;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    height: 890px;
+    margin-left: -10px;
+    padding-right: 150px;
+    margin-top: -85px;
+    padding-bottom: 32px;
+    float: left;
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-left: -15px;
+}
+
+a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;  
+}
+
+li{
+    padding: 10px;
+}
+
+.close_icon{
+    margin-left: 32px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.product{
+    height: 300px;
+    width: 131%;
+    margin-left: -8px;
+    margin-top: 15px;
+    z-index: 0;
+    position: relative;
+}
+
+.slide{
+    position: absolute;
+    display: none;
+}
+
+#item{
+    display: block;
+}
+
+.empty{
+    height: 325px;
+}
+
+.previous{
+    margin-top: 150px;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.next{
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 315px;
+    margin-top: 147px;
+}
+
+.title{
+    font-size: 20px;
+    color: hsl(26, 100%, 55%);
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.content{
+    color: hsl(219, 9%, 45%);
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.price_tag{
+    display: flex;
+}
+
+.discount_price{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.discount{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.price{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(219, 9%, 45%);
+}
+
+.counter{
+    display: flex;
+    background-color: hsl(223, 64%, 98%);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.increment{
+    margin-left: 130px;
+}
+
+.value{
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.add_button{
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px 117px 10px 117px;
+    align-items: center;
+    margin-top: 15px;
+    border: 15px none;
+}
+
+.add_cart{
+    margin-left: -25px;
+    padding-right: 15px;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 255, 255));
+    height: 15px;
+    width: 15px;
+}
+
+.shoppingCart1{
+    display: none;
+}
+
+.shoppingCart1_open{
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+
+#selected_items{
+    display: flex;
+    flex-direction: row;
+    color: hsl(219, 9%, 45%);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.cart_img{
+    height: 80px; 
+    width: 80px;
+    border-radius: 15px; 
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.delete_icon{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 20px;
+}
+
+#cart_div{
+    position: absolute;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+    margin-left: 8px;
+    display: none;
+}
+
+.final{
+    font-weight: 700;
+    color: black;
+    margin-left: 5px;
+}
+
+#desk_line{
+    display: none;
+}
+
+.thumb{
+    display: none;
+}
+
+.top-nav_right{
+    float: right;
+}
+
+.slideshow{
+    display: none;
+}
+
+.product_info{
+    margin-left: 10px;
+}
